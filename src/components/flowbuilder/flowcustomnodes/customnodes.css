@@ -1,0 +1,30 @@
+.message-node {
+    background: white; 
+    min-width: 200px;
+    border-radius: 7px;
+    overflow: hidden;
+    border: 1px solid #e9e9e9ba;
+
+}
+.message-node.selected{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.message-node .message-node-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background: #95f7de;
+}
+
+.message-node .message-node-header b {
+    font-size: 8px;
+}
+
+.message-node .message-content {
+    font-size: 8px;
+    color: rgb(109, 109, 109);
+    padding: 5px;
+    font-weight: 400;
+}

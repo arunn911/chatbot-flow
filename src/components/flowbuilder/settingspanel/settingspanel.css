@@ -1,0 +1,46 @@
+.panel_header {
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(213, 213, 213, 0.708);
+    padding: 10px 5px;
+}
+
+.panel_header button {
+    float: left;
+}
+
+.node_edit_text_wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5px;
+    gap: 10px;
+}
+
+.node_edit_text_wrapper label {
+    font-size: 14px;
+    color: rgb(157, 157, 157);
+    font-weight: 500;
+}
+
+.node_input {
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+.node_input:focus{
+    outline: 2px solid #0a6bff;
+    border: 1px solid transparent;
+}
+
+ .panel_footer {
+    position: absolute;
+    bottom: 0;
+    padding: 0 10px;
+    width: 100%;
+    left: 0;
+  }
+  
+.panel_footer button {
+    width: 100%;
+    margin: 10px 0;
+  }
